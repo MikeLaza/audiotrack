@@ -1,0 +1,22 @@
+.desktop{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 25px;
+
+    background: linear-gradient(90deg, #ff090a, #0200ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+
+    text-align: center;
+
+    font-size: 19px;
+    color: #ffffff;
+    padding: 30px;
+}
+.account{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+    font-size: 38px;
+    color: #ffffff;
+    padding: 30px;
+}

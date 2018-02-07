@@ -1,0 +1,110 @@
+
+.myButton{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.myButton2{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.myButton2 button{
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+.myButton button{
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.myButton .exitButton{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df57b8, #ffc240);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: rgba(19, 16, 16, 0.99);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.myButton .menu{
+     font-family: 'Ubuntu', sans-serif;
+     text-transform: uppercase;
+     margin: 3px;
+     width: 100%;
+    /*background: linear-gradient(132deg, #b280df, #7effb4);*/
+     background: linear-gradient(132deg, #4131df, #17ff0a);
+     background-size: 200% 200%;
+     animation: BackgroundGradient 5s ease infinite;
+     border: 0;
+     padding: 15px;
+     color: rgba(253, 249, 245, 0.99);
+     cursor: pointer;
+     font-size: 14px;
+     transition: background-color 0.5s;
+ }
+
+.myButton .pag{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #4131df, #17ff0a);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: rgba(253, 249, 245, 0.99);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+
+
+.myButton button:hover,.myButton button:focus {
+    background: #5fc4fe;
+}
+
+
+
+
+

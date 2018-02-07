@@ -1,0 +1,12 @@
+
+/*footer*/
+.footer {
+    color: #ffffff;
+    border-radius: 25px;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}

@@ -1,0 +1,45 @@
+
+.form {
+    border-radius: 25px;
+    position: relative;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 30px;
+
+
+}
+.form input {
+    border-radius: 25px;
+
+    font-family: 'Ubuntu', sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.error{
+    color: #ff090c;
+    font-size: 20px;
+}

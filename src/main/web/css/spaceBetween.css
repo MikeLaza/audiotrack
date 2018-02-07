@@ -1,0 +1,16 @@
+.myContainer {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.myTrackk {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+

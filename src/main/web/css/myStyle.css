@@ -1,0 +1,258 @@
+
+@keyframes turning  {
+    0%{
+        transform: rotate(-15deg);
+    }
+
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(15deg);
+    }
+}
+
+#animation{
+    width: 123px;
+    height: 123px;
+    border-radius: 50% 50% 50% 50%;
+    background-image: url("../images/log2.jpg");
+    animation:  turning 0.5s  infinite alternate;
+    margin: 10px;
+    position: absolute;
+    top: 15px;
+    left: 850px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    flex-direction: row-reverse ;
+
+
+}
+.row2{
+    display: flex;
+    justify-content:space-around;
+}
+.rowNav{
+    float: right;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+.header {
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+
+    text-align: center;
+
+    font-size: 19px;
+    color: #ffffff;
+    padding: 30px;
+}
+.navbar{
+    float: right;
+    z-index: -1;
+}
+
+
+
+
+
+.footer {
+    color: #ffffff;
+
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+.sign_up {
+    margin: auto;
+}
+
+.sing_in{
+    margin: auto;
+}
+
+
+
+.form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 30px;
+
+
+
+}
+/*.button{*/
+
+    /*position: relative;*/
+    /*!*z-index: 1;*!*/
+    /*background: #FFFFFF;*/
+
+    /*max-width: 400px;*/
+    /*margin: 0 auto auto;*/
+    /*text-align: center;*/
+    /*padding: 30px;*/
+
+/*}*/
+
+.buttons{
+    position: relative;
+    /*background: #FFFFFF;*/
+    max-width: 400px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 0px;
+}
+.form input {
+    font-family: 'Ubuntu', sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.buttons button{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.buttons .exitButton{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df57b8, #ffc240);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: rgba(19, 16, 16, 0.99);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+.buttons .menu{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #3fdfde, #7dff43);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: rgba(19, 16, 16, 0.99);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+.form button:hover,.form button:focus {
+    background: #5fc4fe;
+}
+
+.buttons button:hover,.buttons button:focus {
+    background: #5fc4fe;
+}
+
+
+
+body {
+
+    background: #1b1b53;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.table{
+    color: #eaeaea;
+}
+

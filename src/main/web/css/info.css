@@ -1,0 +1,20 @@
+.info{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 25px;
+
+    background: #4646ea;
+
+    text-align: center;
+
+    font-size: 19px;
+    color: #ffffff;
+    padding: 1px;
+
+
+
+    /*display: -webkit-flex;*/
+    /*-webkit-justify-content: space-around;*/
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+    /*justify-content: space-between;*/
+}

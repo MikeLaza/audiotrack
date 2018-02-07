@@ -1,0 +1,32 @@
+figure{
+    margin: 0;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    display: block;
+    /*width: 100%;*/
+}
+
+figcaption{
+    padding: 1em;
+
+    background: rgba(205, 214, 219, 0.3);
+
+    /*background: linear-gradient(132deg, rgba(205, 214, 219, 0.3), #ff7f72);*/
+    /*background-size: 200% 200%;*/
+    /*animation: BackgroundGradient 5s ease infinite;*/
+
+    color: #fff;
+    border-radius: 2em;
+    position: absolute;
+    bottom: -11em;
+    right: 30px;
+    transition: 70ms ease-out;
+
+}
+
+figure:hover figcaption {
+    bottom: 10px;
+}

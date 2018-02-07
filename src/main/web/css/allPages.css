@@ -1,0 +1,108 @@
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+body{
+    background: linear-gradient(90deg, #df0f09, #3517ff);
+    background-size: 200% 100%;
+    animation: BackgroundGradient 5s ease infinite;
+
+    text-align: center;
+
+    font-size: 25px;
+    color: #ffffff;
+    padding: 30px;
+}
+.btn{
+    margin: 2px;
+}
+
+
+@keyframes turning  {
+    0%{
+        transform: rotate(-15deg);
+    }
+
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(15deg);
+    }
+}
+
+#animation{
+    width: 175px;
+    height: 175px;
+    border-radius: 50% 50% 50% 50%;
+    background-image: url("../images/log.jpg");
+    animation:  turning 0.5s  infinite alternate;
+    margin: 10px;
+    position: fixed;
+    top: 5px;
+    left: 1000px;
+}
+.exit{
+    float: right;
+    color: #1b1b53;
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    color: #080808;
+
+    max-width: 400px;
+    margin: 0 auto auto;
+    text-align: center;
+    padding: 30px;
+
+}
+.form input {
+    font-family: 'Ubuntu', sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    margin: 3px;
+    width: 100%;
+    background: linear-gradient(132deg, #df0f09, #3517ff);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 5s ease infinite;
+    border: 0;
+    padding: 15px;
+    color: #fbf8ff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+.form button:hover,.form button:focus {
+    background: #5fc4fe;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.navbar{
+    background: #1b1b53;
+}

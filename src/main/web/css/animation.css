@@ -1,0 +1,32 @@
+/*animation*/
+@keyframes turning  {
+    0%{
+        transform: rotate(-15deg);
+    }
+
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(15deg);
+    }
+}
+
+#animation{
+    width: 123px;
+    height: 123px;
+    border-radius: 50% 50% 50% 50%;
+    background-image: url("../images/log2.jpg");
+    animation:  turning 0.5s  infinite alternate;
+    margin: 10px;
+    position: absolute;
+    top: 15px;
+    left: 850px;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+
